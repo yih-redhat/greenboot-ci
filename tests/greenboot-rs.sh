@@ -151,7 +151,6 @@ IMAGE_KEY="ostree-${TEST_UUID}"
 GUEST_ADDRESS=192.168.100.50
 SSH_USER="admin"
 OS_NAME="rhel-edge"
-IMAGE_TYPE=edge-commit
 PROD_REPO_URL=http://192.168.100.1/repo
 
 # Set up temporary files.
