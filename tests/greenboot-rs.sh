@@ -60,7 +60,7 @@ sudo mkdir -p /etc/osbuild-composer/repositories
 # Set os-variant and boot location used by virt-install.
 case "${ID}-${VERSION_ID}" in
     "fedora-"*)
-        IMAGE_TYPE=fedora-iot-commit
+        IMAGE_TYPE=iot-commit
         OSTREE_REF="fedora/${VERSION_ID}/${ARCH}/iot"
         OS_VARIANT="fedora-unknown"
         BOOT_LOCATION="https://dl.fedoraproject.org/pub/fedora/linux/development/39/Everything/x86_64/os/"
